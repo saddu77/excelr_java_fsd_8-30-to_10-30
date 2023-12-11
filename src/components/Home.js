@@ -4,7 +4,8 @@ function Home(){
     return(
         <>
         <ul>
-            <li> Home </li>
+            <li> <Link id="link" to="/home">Home</Link> </li>     
+            <li> <Link id="link" to="/users">Users</Link> </li>            
             <li> Products </li>
             <li> Orders </li>
             <li> About US </li>
